@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Indian Railways Payment</title>
+
+<style>
+  input[type=submit] {
+  width: 40%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 16px
+}
+
+  input[type=Pay]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+input[type=reset] {
+  width: 40%;
+  background-color: #ff0000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=reset]:hover {
+  background-color: #f83131;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+</style>
+</head>
+<body>
+<center>
+<h1>Passenger Details</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Starting Place</th>
+    <th>Ending Place</th>
+    <th>Date of Jounrney</th>
+  </tr>
+  <tr>
+    <td>Sayan</td>
+    <td>Howrah Jn.</td>
+    <td>Delhi</td>
+    <td>23-04-2021</td>
+  </tr>
+  <tr>
+    <td>Soham</td>
+    <td>Malda</td>
+    <td>Delhi</td>
+    <td>20-08-2021</td>
+  </tr>
+  <tr>
+    <td>Avik</td>
+    <td>Delhi</td>
+    <td>Howrah Jn.</td>
+    <td>10-10-2021</td>
+  </tr>
+  <tr>
+    <td>Debdip</td>
+    <td>Murshidabad</td>
+    <td>Kolkata</td>
+    <td>03-01-2022</td>
+  </tr>
+  <tr>
+    <td>Debasree</td>
+    <td>Howrah Jn.</td>
+    <td>Murshidabad</td>
+    <td>06-05-2021</td>
+  </tr>
+</table>
+
+</center>
+<br><br>
+<form action="end.html" method="get">
+<input type="submit" value="Pay"> &nbsp;
+  <input type="reset" value="Cancel">
+</form>
+</body>
+</html>
